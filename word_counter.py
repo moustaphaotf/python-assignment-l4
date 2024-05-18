@@ -1,3 +1,5 @@
+"""Ce programme permet de compter le nombre de mots dans un fichier"""
+
 with open('file.txt', 'r') as file:
     # Open the file
     file_content = file.read()
