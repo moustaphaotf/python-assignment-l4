@@ -1,3 +1,5 @@
+"""Ce programme permet de faire un simulation de lancer de dés et affiche les statistiques"""
+
 from random import randrange
 throws = int(input('Combien de lancés de dés effectuer ? '))
 
