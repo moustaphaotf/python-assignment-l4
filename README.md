@@ -6,10 +6,6 @@ Nom: Diallo
 Prenom: Mamadou Moustapha
 ---
 
-# Devoir en Python
-
-Par Mamadou Moustapha Diallo
-
 ## Enoncé et résolution
 
 |#|Enoncé||
