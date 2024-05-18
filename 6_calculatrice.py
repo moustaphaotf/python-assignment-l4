@@ -1,3 +1,5 @@
+"""Ce projet est l'implémentation d'une calculatrice avec le module Tkinter"""
+
 import tkinter as tk
 import re
 

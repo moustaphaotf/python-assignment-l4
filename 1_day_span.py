@@ -1,3 +1,5 @@
+"""Ce programme permet de définir une fonction qui calcule le nombre de jours entre deux dates et la tester"""
+
 from datetime import datetime
 
 def day_span(date1:datetime, date2:datetime)->int:

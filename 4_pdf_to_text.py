@@ -1,9 +1,14 @@
-"""Ce script permet d'extraire le contenu textuel d'un fichier PDF"""
+"""
+Ce script permet d'extraire le contenu textuel d'un fichier PDF
+Il est possible de l'utiliser en ligne de commande
+
+python 4_pdf_to_text.py path_to_file.pdf
+"""
 from pypdf import PdfReader
 import sys
 
 if len(sys.argv) != 2:
-    sys.exit("Usage: python pdf_to_text.py path_to_file.pdf")
+    sys.exit("Usage: python 4_pdf_to_text.py path_to_file.pdf")
 
 filename = sys.argv[1]
 
